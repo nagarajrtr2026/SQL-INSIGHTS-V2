@@ -1,29 +1,29 @@
 {
-  "name": "agentic-ai-frontend",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev -p 3000",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "@tanstack/react-query": "4.29.19",
-    "framer-motion": "10.12.16",
-    "next": "15.0.0",
-    "plotly.js-basic-dist": "2.26.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "zustand": "4.5.6"
-  },
-  "devDependencies": {
-    "@types/node": "^20.10.6",
-    "@types/plotly.js-basic-dist": "^1.54.4",
-    "@types/react": "19.2.15",
-    "@types/react-dom": "^18.2.18",
-    "autoprefixer": "^10.5.0",
-    "postcss": "^8.5.15",
-    "tailwindcss": "^3.4.4",
-    "typescript": "5.5.4"
-  }
+"name": "agentic-ai-frontend",
+"version": "0.1.0",
+"private": true,
+"scripts": {
+"dev": "next dev -p 3000",
+"build": "next build",
+"start": "next start"
+},
+"dependencies": {
+"@tanstack/react-query": "4.29.19",
+"framer-motion": "10.12.16",
+"next": "^15.5.2",
+"plotly.js-basic-dist": "2.26.0",
+"react": "18.2.0",
+"react-dom": "18.2.0",
+"zustand": "4.5.6"
+},
+"devDependencies": {
+"@types/node": "^20.10.6",
+"@types/plotly.js-basic-dist": "^1.54.4",
+"@types/react": "^18.2.66",
+"@types/react-dom": "^18.2.18",
+"autoprefixer": "^10.5.0",
+"postcss": "^8.5.15",
+"tailwindcss": "^3.4.4",
+"typescript": "5.5.4"
+}
 }
