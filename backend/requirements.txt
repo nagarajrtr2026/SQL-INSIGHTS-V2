@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary
+pymysql
+requests
+pandas
+plotly
+reportlab
+passlib[bcrypt]
+pydantic-settings
+openpyxl
+python-multipart
+groq>=0.4.1

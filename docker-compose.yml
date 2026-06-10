@@ -1,0 +1,37 @@
+version: '3.8'
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8100:8100"
+    environment:
+      - PYTHONUNBUFFERED=1
+    depends_on: []
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+
+
+  # Optional DB services for local dev
+  postgres:
+    image: postgres:15
+    restart: always
+    environment:
+      POSTGRES_USER: dev
+      POSTGRES_PASSWORD: dev
+      POSTGRES_DB: devdb
+    ports:
+      - "5432:5432"
+
+  mysql:
+    image: mysql:8
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: dev
+      MYSQL_DATABASE: devdb
+    ports:
+      - "3306:3306"
