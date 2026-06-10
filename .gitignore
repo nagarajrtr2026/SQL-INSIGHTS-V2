@@ -40,3 +40,6 @@ coverage.xml
 Thumbs.db
 .vscode/
 .idea/
+.env
+__pycache__/
+*.pyc
